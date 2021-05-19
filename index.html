@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Pesquisar usuários</title>
+</head>
+
+<body>
+    <h1>Pesquisa de usuários</h1>
+    <div>
+        <input type="text" id='searchInput' placeholder="Busca">
+        <button disabled="disabled" id="searchBtn">Buscar</button>
+    </div>
+    <div class="conteinerResults">
+        <div>
+            <h5 id="countUsers">Nenhum usuário encontrado</h5>
+            <div id="tabUsers"></div>
+        </div>
+        <div>
+            <h5 id="statistics">Nada a ser exibido</h5>
+            <div id="tabStatistics"></div>
+        </div>
+    </div>
+
+    <script src="./js/script.js"></script>
+</body>
+
+</html>

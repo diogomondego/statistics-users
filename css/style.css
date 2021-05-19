@@ -1,0 +1,8 @@
+.conteinerResults {
+    display: flex;
+    flex-direction: row;
+}
+
+.user {
+    display: flex;
+}
