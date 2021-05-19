@@ -1,8 +1,25 @@
 .conteinerResults {
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
+}
+
+.panel {
+    border: 1px solid lightseagreen;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+.panel:last-child {
+    height: fit-content;
+}
+
+img {
+    border-radius: 50%;
+    margin-right: 10px;
 }
 
 .user {
     display: flex;
+    align-items: center;
 }
